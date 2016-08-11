@@ -1,4 +1,5 @@
 ```JavaScript
+ //一
   function clone(Obj) {
     var buf;
     if (Obj instanceof Array) {
@@ -19,6 +20,7 @@
     }
 }
 
+//二
 function deepClone(obj) {
   var o = obj instanceof Array ? [] : {};
   for(var k in obj) 
