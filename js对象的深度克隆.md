@@ -1,4 +1,4 @@
-
+```JavaScript
   function clone(Obj) {
 
     var buf;
