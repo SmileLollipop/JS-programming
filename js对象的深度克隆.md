@@ -19,5 +19,12 @@
     }
 }
 
+function deepClone(obj) {
+  var o = obj instanceof Array ? [] : {};
+  for(var k in obj) 
+    o[k] = typeof obj[k] === Object ? deepClone(obj[k]) : obj[k];
+  return o;
+}
+
 
 ```
