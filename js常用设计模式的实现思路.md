@@ -1,5 +1,5 @@
 ```javascript
- // 1) 单例：　任意对象都是单例，无须特别处理
+    // 1) 单例：　任意对象都是单例，无须特别处理
 
     var obj = {name: 'michaelqin', age: 30};
 
