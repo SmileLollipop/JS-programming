@@ -1,12 +1,12 @@
 ```JavaScript
 //方法1
 Array.prototype.unique1 = function() {
-    var a = []; //一个新的临时数组
+    var n= []; //一个新的临时数组
     for (var i = 0; i < this.length; i++) //遍历当前数组
     {
         //如果当前数组的第i已经保存进了临时数组，那么跳过，
         //否则把当前项push到临时数组里面
-        if (a.indexOf(this[i]) == -1) a.push(this[i]);
+        if (n.indexOf(this[i]) == -1) n.push(this[i]);
     }
     return n;
 }
